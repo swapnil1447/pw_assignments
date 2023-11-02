@@ -1,0 +1,77 @@
+Q1. List out the features of HTML5.
+Ans-
+* Video and audio are the new tags which allow to embed a video in the website
+* The svg element is used for the scalable vector graphics in the html 5, we can create any kind of graphical animation with use of the svg tag, such as circle, square or rectangle etc.
+* This is most awaited set of tags in HTML. Semantic tags are very useful to make human and search engine friendly websites and apps.
+* Few APIs are introduced in the latest version of HTML i.e. HTML5. These are very useful and JavaScript based, meaning one need to JavaScript to leverage the power of these APIs. They are canvas, geolocation, drag/drop, web storage, web workers etc.
+Q2. What are HTML Entities? List out 5 commonly used HTML entities.
+Ans-HTML entities are special codes that represent reserved characters, symbols, or characters with specific meaning.
+Commonly Used HTML Entities:
+* &lt; - Represents the less-than symbol <.
+* &gt; - Represents the greater-than symbol >.
+* &copy; - Represents the copyright symbol ©.
+Q3. Define accessibility in the context of web development? Discuss why it's essential to create accessible websites and how it benefits different user groups.
+Ans-Accessibility in web development refers to designing and coding websites in a way that ensures people with disabilities can perceive, understand, navigate, and interact with digital content effectively.
+Q4.List any 3 ways which help us in improving the accessibility of HTML?
+Ans-Use Semantic HTML Elements: Using semantic HTML elements helps improve accessibility by providing meaningful structure to your content.
+Provide Alt Text for Images: Adding descriptive alt text to images using the alt attribute ensures that users who cannot see the images can understand their content and purpose.
+Use Color with Care: Color plays an important role in web design, but it should not be the only means of conveying information.
+Q5. Create a web page that highlights the features of HTML5. Use appropriate semantic tags to structure the content and showcase at least three key features of HTML5 with explanations.
+Ans- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HTML v/s HTML5</title>
+</head>
+<body>
+<h1>HTML v/s HTML5</h1>
+<table border="1">
+<thead>
+<tr>
+<th>HTML</th>
+<th>HTML5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+It required plugins like Adobe Flash to support audio and video
+content.
+</td>
+<td>
+Provides built-in support for multimedia elements such as video and
+audio without the need for a plugin.
+</td>
+</tr>
+<tr>
+<td>It has fewer elements as compared to HTML5.</td>
+<td>
+It includes new elements and form attributes such as time, date, and
+colour. Required and autofocus in input types of the tag element as
+well.
+</td>
+</tr>
+<tr>
+<td>It does not have support for local storage.</td>
+<td>It has support for local storage i.e. localStorage.</td>
+</tr>
+<tr>
+<td>
+Less semantic elements, thereby providing less web accessibility
+features.
+</td>
+<td>
+<p>
+It supports more semantic elements, such as &lt;header&gt;,
+&lt;footer&gt;, &lt;nav&gt;, and &lt;article&gt;, thereby
+improving accessibility.
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
