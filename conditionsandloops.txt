@@ -1,0 +1,81 @@
+Q1. What are conditional statements? Explain conditional statements with syntax and examples.
+Ans- Conditional statement in JS or any other programming languages are those statements upon whoes execution the below mentioned statements are executed.
+They can be if or switch . If the conditions are satisfied then the below statement will be executed else not.
+Ex-
+Let a =2 ;//It’s a number and if it’s a odd give an alert ODD
+If(a%2 == 1){//if is a conditional statement upon whoes execution below statements will be true or false
+alert(“ODD”)
+}
+Q2. Write a program that grades students based on their marks?
+Ans-
+const marks=80;
+let grade="";
+switch(true) {
+    case (marks >90):
+        grade="A";
+        break;
+    case (marks>70 && marks<90):
+        grade="B";
+        break;
+    case (marks>50 && marks<70):
+        grade="C";
+        break;
+    case (marks<50):
+        grade="F";
+        break;
+}
+console.log(grade)
+
+Q3. What are loops, and what do we need them? Explain different types of loops with their syntax and
+examples.
+Ans- Loops are a fundamental concept in programming used to execute a block of code repeatedly based on a certain condition. They are crucial for automating repetitive tasks, iterating through collections of data, and performing operations until a specific condition is met.
+For Loop: The for loop is used when you know in advance how many times you want to execute a block of code.
+Ex- 
+for (variable in array) {
+  code
+}
+While Loop: The while loop is used when you want to execute a block of code as long as a condition is true.
+Ex-
+while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}Do-While Loop (Not available in Python): Unlike other loops, a do-while loop checks the condition after executing the block of code at least once. However, Python doesn’t have a built-in do-while loop, but similar functionality can be achieved using a while loop with a condition check at the beginning.
+let text = "";
+let i = 0;
+do {
+  text += i + "<br>";
+  i++;
+}
+Q4. Generate n9mbers between any 2 given numbers.
+Ex
+Output: 11, 12, 13, ...., 25
+Ans- let n1=10;
+let n2=25;
+let res="";
+//res=n1;
+while(n1<n2){
+    res =  res+n1+","
+     n1+=1;
+ }
+ res=res+n2
+ console.log(res)
+Q5. Use the while loop to print numbers from 1 to 25 in ascending and descending order.
+Ans-
+let n1=1;
+let n2=25;
+let res="";
+while(n1<n2){
+    res =  res+n1+","
+     n1+=1;
+ }
+ res=res+n2
+ console.log("ascending",res)
+ res="";
+ n1=1;
+ n2=25;
+ while(n1<n2){
+    res =  res+n2+","
+     n2-=1;
+ }
+ res=res+n1
+ console.log("descending",res)
