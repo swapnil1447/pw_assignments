@@ -1,0 +1,60 @@
+Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+Ans- Operators in JavaScript (and in programming languages in general) serve as symbols or constructs that perform operations on operands, such as variables, values, or expressions. These operations can be mathematical, logical, assignment-based, comparison-based, bitwise, or more complex manipulations.
+Bitwise- &, |,
+Manipulating Data- >, <, ==
+Performing Operations: +, -, *
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+Ans-There are different types of JavaScript operators:
+* Arithmetic Operators-let x = (100 + 50)
+* Assignment Operators- let x=20
+* Comparison Operators- let x>=20
+* String Operators- let a=”Swapnil” , b=”Mishra” , c=a+b
+* Logical Operators-if(a && b)
+* Bitwise Operators- 5&1
+* Ternary Operators=5>2?”console.log(“hello”):console.log(“go”)
+* Type Operators- typeof(“Swapnil”)
+
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+Ans-Unary operators are those which do not require more than one operand . They work with single operand. Ex- let a=true;
+!a=> false
+Binary- Binary operators are those which require 2 operands to operate or work.
+Ex- a=10 , b=20
+C=a+b
+Ternary operator-  These operator require more than 2 operands to operate . 
+For ex- ..?..: =>5>2?”console.log(“hello”):console.log(“go”)
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts
+important?
+Ans- Operator precedence refers to the priority given to operators while parsing a statement that has more than one operator performing operations in it. Operators with higher priorities are resolved first. But as one goes down the list, the priority decreases and hence their resolution.
+Ex- ( 2 + 3 ) + 4 = 2 + ( 3 + 4 )
+
+Q5. Write a JavaScript program that calculates the simple interest using the formula Simple interest =
+(principal * rate * time) / 100.
+Ans-const principal=2000;
+const rate=7;
+const time=5;
+let simpleinterest=0;
+simpleinterest=(principal * rate * time) / 100
+console.log("simple interest is",simpleinterest)
+
+Q6. Write a Javascript program to calculate the Body Mass Index (BMI) using the formula BMI = weight (kg)/
+height * height.
+Ans-
+function calculateBMI(weight, height) {
+    
+    let bmi = weight / (height * height);
+    return bmi;
+  }
+  
+
+  let weightInKg = 70; 
+  let heightInMeters = 1.75; 
+  
+  let bmiResult = calculateBMI(weightInKg, heightInMeters);
+
+Q7. Write a program in JavaScript to calculate the area of a circle given its radius value of 10. Use appropriate
+arithmetic operators.
+Ans-
+const radius=10;
+let area = 0;
+area=(22/7)*radius*radius
+console.log(area)

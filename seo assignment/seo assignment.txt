@@ -1,0 +1,95 @@
+Q1. What is SEO and explain the importance of SEO?
+And-SEO stands for Search Engine Optimization. It helps you optimize your websites so that they have better visibility on Search Engines.
+SEO is rank enhancer tool in search engine results pages for relevant keywords and phrases,
+which can increase visibility, traffic, and ultimately revenue for the website.
+Ex- Aria tag , Meta tag etc
+Q2. Create an HTML document with appropriate <title> and <meta> tags for SEO optimization. Ensure the title is descriptive and the meta description is concise.
+Ans-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SEO</title>
+<meta
+name="title"
+content="learning seo"
+/>
+<meta
+name="description"
+content="learned seo from Hitesh sir."
+/>
+<meta
+name="robots"
+content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+/>
+<link rel="shortcut" href="styles.css" type=”img/x-icon”/>
+</head>
+<body></body>
+</html>
+
+Q3. What are the Benefits of Using Meta Tags?
+Ans-Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services
+SEO - (Search Engine Optimization): Meta tags, such as the "description" and "keywords" tags, can help
+improve a webpage's visibility on search engine result pages (SERPs).
+Social Media Sharing - Meta tags like the Open Graph Protocol tags allow developers to control how web
+pages are displayed when shared on social media platforms like Facebook, Twitter, and LinkedIn.Z
+Character Encoding and Language - The meta tag specifying the character encoding (e.g., .TF-8) ensures
+that the browser interprets the text correctly, especially when dealing with special characters or multilingual
+Q4. Create an HTML document that properly incorporates semantic elements li[e <header>, <article>,
+<section>, or <naC> to improCe SEO and document structure.?
+Ans-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HTML</title>
+</head>
+<body>
+<header>
+<h1>Welcome </h1>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<header>
+<h2>How to Create Semantic HTML</h2>
+</header>
+<section>
+<h3>Introduction</h3>
+<p>
+In this article, we'll explore the benefits of using semantic HTML
+elements and how they improve document structure and SEO....
+</p>
+</section>
+
+<footer>
+<p>&copy; 2023 Your Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
+
+
+Q5. Define Favicon and give an illustrative example.
+Ans-
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BookWorld - Your Online Bookstore</title>
+<!-- Favicon -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+</body>
+

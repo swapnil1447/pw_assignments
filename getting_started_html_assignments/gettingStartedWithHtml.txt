@@ -1,0 +1,44 @@
+1. Write a simple program in HTML  that displays the heading "HTML defines the content and structure of your website” on the web browser?
+Ans: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur officia alias sapiente suscipit perspiciatis perferendis eaque. Facilis dolorem veritatis impedit perspiciatis distinctio possimus nemo culpa cum, vero eius porro voluptas?</h2>
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+</body>
+</html>
+
+2.Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document.
+Ans- Comments in html are used to restrict rendering of the html code written on the browser page.
+<!—HTML CODE--> 
+3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line, and a line break. Arrange these elements to create a simple web page layout
+Ans- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <br> is used to give line break -->
+    <h1>Swapnil Assignment I purchased the course on 27 oct so submission is bit delayed. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum atque, assumenda quas ad sed sequi totam sint quaerat laboriosam.</h1>
+    <hr>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio deserunt maxime magni tempore ipsum, dolorum ducimus dolore ratione fuga ab voluptates modi cumque sequi velit aut ipsa ea! Fugit nisi error accusamus modi sequi totam dignissimos ratione voluptates, velit expedita? Placeat officia non fuga velit rerum nobis quaerat eveniet ullam.</p>
+    
+
+</body>
+</html>
+
+4.Write a short note on Tag and element with an example
+Ans-code enclosed within angle brackets <> that defines the purpose and structure of a specific element on a webpage is called Tag whereas element is the entire combination of tag with the content inside it.
+Ex- Tag-> <p> </p>
+Element-> <p>This is para tag</p>
+5.What is the DOCTYPE Declaration in HTML? 
+Ans: The DOCTYPE declaration in HTML is a instruction placed at the beginning of an HTML about what document type to expect. 
+For ex-<!DOCTYPE html>
+
+

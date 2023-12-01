@@ -1,0 +1,350 @@
+1. Build a simple webpage that displays that as shown in the below image.
+Ans-<body>
+<p>
+<b> This text will be bolded. </b>
+</p>
+<p>
+<i> This text will be italic. </i>
+</p>
+<p>
+<ins> This text will be underlined</ins>
+</p>
+<mark> This text will be highlighted </mark>
+<p>
+This is normal text<sup> This will be super scripted </sup> This is normal
+again
+</p>
+<p>This is normal text <sub> This text will be subscripted </sub></p>
+<p>Normal Text <small> Smal Text </small></p>
+<p><del> This text will be deleted</del></p>
+</body>
+2. Build a simple webpage that helps users to navigate differerent web development-related websites.
+       Ans-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><p style="text-align: left;">Navigate Me:</p></h1>
+    <p>Take me to <a href="https://www.pwskills.com" target="_blank">PW Skills</a> to buy a course</p>
+    <p>Take me to
+        <a href="https://developer.mozilla.org/en-US/" target="_blank"
+        >MDN docs</a>to know more about Web Development.</p>
+    <p>Take me to
+        <a href="https://lab.pwskills.com/" target="_blank">PW Skills Lab</a> to
+        practice live coding.</p>
+    
+
+</body>
+</html>
+3. Build a simple blog web page with 3 pages home, web development, and web design. Each page must
+contain hyperlinks to other pages in the top, a heading of the page topic and a paragraph of information.
+For the home page you can add some information about yourself.?
+Ans-home.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <a href="./home.html">Home</a> |
+    <a href="./webdev.html">Web Development</a> |
+    <a href="./webdesign.html">Web Design</a>
+    </div>
+    <div>
+    <h1>Web Design</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed aut quibusdam reprehenderit suscipit totam expedita qui facere? Quisquam,
+	voluptatum! Quasi quod animi, dolor cumque perferendis mollitia? Eveniet non vitae quidem delectus perspiciatis architecto consequuntur cum sequi 
+	neque aliquid consequatur dicta quas sunt unde cupiditate nemo vel, expedita veritatis ea assumenda hic commodi magni ut. Fugiat molestiae iusto s
+	apiente! Ipsum in facere delectus dicta nostrum voluptas commodi impedit quis, magni iste amet magnam autem. Quo explicabo dolorem odit nemo bla
+	nditiis? Molestiae, nihil voluptatem? Vitae nesciunt quidem quas ipsum voluptatem, ratione iste facere incidunt, esse explicabo harum eos debitis 
+	non qui aspernatur?</p>
+    </div>
+    </body>
+</html>
+Webdev.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <a href="./home.html">Home</a> |
+    <a href="./webdev.html">Web Development</a> |
+    <a href="./webdesign.html">Web Design</a>
+    </div>
+    <div>
+    <h1>Web Development</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nisi soluta tempora officia, impedit distinctio, in vero aperiam, nostrum vo
+	luptas accusantium? Iusto, tempore voluptatum, suscipit officia provident earum odio pariatur in a accusantium labore voluptas, nam modi. Vitae rerum 
+	fugit reprehenderit velit magnam blanditiis delectus. Qui assumenda laborum tenetur soluta consequuntur recusandae porro, dolorum incidunt nostrum,
+	blanditiis id tempore repellat rem sapiente illo vitae quisquam dignissimos rerum suscipit velit maiores libero saepe? Quasi voluptatem a mollitia 
+	nulla obcaecati. Consequatur hic error, dignissimos quibusdam alias in officia fugit voluptas distinctio tenetur, libero provident sit numquam dolorem
+	dolorum et nobis facere earum.</p>
+    </div>
+	
+    </body>
+</html>
+Webdesign.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <a href="./home.html">Home</a> |
+    <a href="./webdev.html">Web Development</a> |
+    <a href="./webdesign.html">Web Design</a>
+    </div>
+    <div>
+    <h1>Web Design</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sit ex, sed aut nemo nostrum dolorem, quam voluptates quisquam unde
+	facere itaque eligendi possimus officiis quae totam non voluptatum alias quod excepturi nulla quasi similique eaque. A facilis necessitatibus 
+	sint recusandae, dolore, provident aperiam maiores asperiores facere velit veritatis voluptates quod ipsam? Dicta a ipsam possimus odio vero quas 
+	aliquam facilis provident molestias beatae expedita est tempora accusantium aut mollitia ipsum sit eius esse delectus officia, doloribus ipsa. 
+	Provident est ratione, qui in omnis labore deserunt laborum, dicta voluptas, obcaecati maiores soluta harum voluptate hic sit minus suscipit libero? 
+	Officiis.</p>
+    </div>
+    </body>
+</html>
+4.Create an ordered list of html tags and each list should contain some information about the tags ?
+Ans- <body>
+        <h1>List of Tags.</h1>
+        <ol>
+        <li>h1: Defines a heading level 1.</li>
+        <li>p: Defines a paragraph of text.</li>
+        <li>div: Defines a container for HTML elements.</li>
+        <li>table: Defines a table with rows and columns.</li>
+        <li>ul: Defines an unordered list.</li>
+        </ol>
+        </body>
+5. create a description list of full stack web deKelopment tech stack, using the <dl> tag. Each term should be a tech stack name and each description should be a brief explanation of what the tech stack is used for.
+Ans-
+<body>
+<h1>Full Stack Web Development Tech Stack:</h1>
+<dl>
+<dt>HTML</dt>
+<dd>
+HyperText Markup Language is the standard markup language for creating
+web pages and other online documents.
+</dd>
+<dt>CSS</dt>
+<dd>
+Cascading Style Sheets is a style sheet language used for describing the
+presentation of a document written in HTML or XML.
+</dd>
+<dt>JavaScript</dt>
+<dd>
+JavaScript is a programming language used to create interactive effects
+within web browsers.
+</dd>
+<dt>Node.js</dt>
+<dd>
+Node.js is an open-source, cross-platform, JavaScript runtime
+environment that executes JavaScript code outside of a browser.
+</dd>
+<dt>Express.js</dt>
+<dd>
+Express.js is a web application framework for Node.js designed for
+building web applications and APIs.
+</dd>
+<dt>MongoDB</dt>
+<dd>
+MongoDB is a NoSQL document-oriented database program that uses
+JSON-like documents with optional schemas.
+</dd>
+<dt>React.js</dt>
+<dd>
+React.js is a JavaScript library for building user interfaces or UI
+components.
+</dd>
+</dl>
+</body>
+Q6. Create an ordered list of the full stack web development tech stack, HTML,CSS,and JS. For each tech
+stack, create a tea table that lists the tech stack name, use cases, and some key features and
+benefits.
+Ans-
+<body>
+<ol>
+<li>
+<h2>HTML</h2>
+<table border="1">
+<tr>
+<th>Primary Use Cases</th>
+<th>Key Features/Benefits</th>
+</tr>
+<tr>
+<td>Building the structure of web pages</td>
+<td>
+<ul>
+<li>Simple and easy to learn</li>
+<li>Compatible with all web browsers</li>
+<li>Allows for semantic markup</li>
+</ul>
+</td>
+</tr>
+</table>
+</li>
+<li>
+<h2>CSS</h2>
+<table border="1">
+<tr>
+<th>Primary Use Cases</th>
+<th>Key Features/Benefits</th>
+</tr>
+<tr>
+<td>Styling and layout of web pages</td>
+<td>
+<ul>
+<li>Allows for separation of content and presentation</li>
+<li>Enables responsive design</li>
+<li>Offers a wide range of styling options</li>
+</ul>
+</td>
+</tr>
+</table>
+</li>
+<li>
+<h2>JavaScript</h2>
+<table border="1">
+<tr>
+<th>Primary Use Cases</th>
+<th>Key Features/Benefits</th>
+</tr>
+<tr>
+<td>Adding interactivity and functionality to web pages</td>
+<td>
+<ul>
+<li>Can manipulate and modify web page content in real-time</li>
+<li>
+Offers a wide range of functionality through libraries and
+frameworks
+</li>
+<li>Allows for server-side scripting with Node.js</li>
+</ul>
+</td>
+</tr>
+</table>
+</li>
+</ol>
+</body>
+
+7.Build a complex nested list structure represting a multilevel of content . Use ordered list<ul> and item list <li> with line –block styling to create structured layout.
+Ans-<body>
+    <h1>Table of Contents</h1>
+    <ul>
+    <li><a href="#">Part 1: Introduction</a></li>
+    <li><a href="#">Part 2: Getting Started</a>
+    <ul>
+    <li><a href="#">2.1 Installing the Software</a></li>
+    <li><a href="#">2.2 Creating a New Project</a>
+    <ul>
+    <li><a href="#">2.2.1 Project Templates</a></li>
+    <li><a href="#">2.2.2 Customizing Settings</a></li>
+    </ul>
+    </li>
+    <li><a href="#">2.3 Exploring the Interface</a>
+    <ul>
+    <li><a href="#">2.3.1 Toolbar Features</a></li>
+    <li><a href="#">2.3.2 Panel Layout</a>
+    <ul>
+    <li><a href="#">2.3.2.1 Docking Panels</a></li>
+    <li><a href="#">2.3.2.2 Tabbed Interface</a></li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    <li><a href="#">Part 3: Advanced Topics</a>
+    <ul>
+    <li><a href="#">3.1 Working with Plugins</a>
+    <ul>
+    <li><a href="#">3.1.1 Installing Plugins</a></li>
+    <li><a href="#">3.1.2 Plugin Configuration</a></li>
+    </ul>
+    </li>
+    <li><a href="#">3.2 Customizing the UI</a>
+    <ul>
+    <li><a href="#">3.2.1 Changing Themes</a></li>
+    <li><a href="#">3.2.2 Configuring Shortcuts</a></li>
+    </ul>
+    </li>
+    <li><a href="#">3.3 Optimizing Performance</a>
+    <ul>
+    <li><a href="#">3.3.1 Caching Strategies</a></li>
+    <li><a href="#">3.3.2 Resource Minification</a></li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    <li><a href="#">Part 7: Conclusion</a></li>
+    </ul>
+    </body>
+8.Build a complex list structure representing  a multi-level table of content .Use ordered list and list item.
+Ans-<body>
+   
+    <table>
+        <tr>
+            <th colspan="7">
+                Time table
+            </th>
+        </tr>
+        <tr>
+            <th rowspan="6">
+                hours
+            </th>
+            <th>mon</th>
+            <th>tues</th>
+            <th>wed</th>
+            <th>thus</th>
+            <th>frid</th>
+        </tr>
+        <tr>
+            <td>science</td>
+            <td>science</td>
+            <td>science</td>
+            <td>science</td>
+            <td>science</td>
+        </tr>
+        <tr>
+            <td>science</td>
+<<<<<<< HEAD
+            <td>sciencewfwfe</td>
+=======
+            <td>science</td>
+>>>>>>> footer
+            <td>science</td>
+            <td>science</td>
+            <td>science</td>
+        </tr>
+        <tr>
+            <th colspan="5">
+                lunch
+            </th>
+        </tr>
+        <tr>
+            <td>project</td>
+            <td>project</td>
+            <td>project</td>
+            <td>project</td>
+            <td rowspan="2">project</td>
+        </tr>
+        <tr>
+            <td>science</td>
+            <td>science</td>
+            <td>science</td>
+            <td>scissffsfsdence</td>
+        </tr>
+      </table>

@@ -1,0 +1,39 @@
+Question 1: Explain what JavaScript is and its role in web development?
+Ans-Javascript is a powerful programming language for adding logical functionality to the web page .
+JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. 
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
+Ans-HTML and javascript are entirely different languages but their use is used for web development . 
+Web development is multidimensional development where we need different language for proper working of the website.
+For web development –
+HTML is used for creating webpage like writing text to the web page , adding list like ordered or unordered then adding buttons and everything else which is visible to the user is done by HTML.
+Javascript is basically a language that puts the functionality behind the things which are visible on the webpage and behavior of the items visible on the webpage to user. What things will happen when the action is performed is done in javascript.
+Question 3: List and describe the five primitive data types in JavaScript.
+Ans-5 primitives datatypes are –
+1)Number
+2)String
+3)Boolean
+4)Bigint
+5)Symbol 
+
+Question 4: What is the purpose of declaring variables in JavaScript, and how do you declare them using the
+'let' keyword?
+Ans- Variable in javascript is used to hold some value which can be used later part of the code.
+Major 2 types are const and let
+Let keyword is the one whoes reference is stored in stack and its data can be changeable in the later part of the code .
+
+Ex- let a =2;
+a+=1;
+
+Now a =3;
+
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and
+multi-line comments.
+Ans-
+Comments are the extra code which are not executed by compiler and used to add additional information about the code we have written .
+Single line comments are written using //
+Whereas Multiline comments are written is /*---*/
+Question 6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript.
+Provide an example where using a clear identifier improves code readability.
+Ans- Meaningful and descriptive variable name are basic standard of the code.
+Your code is read by at least two entities, the computer and future you. In the case of using non-descriptive variable names, the former won’t complain as long as there are no error on the syntax. The latter, on the other hand, will spend longer time figuring out what the code does than the total time it would’ve taken for you to write descriptive variable names.
+Ex.If you have big code and suppose there is variable which stores username and you need to use It in the code after 20 thousand line then you can type username and editor will give you suggestion that yes this is your variable and you can use it easily without going to the place and searching it where it was declared.
